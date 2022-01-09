@@ -31,6 +31,8 @@ http://localhost:8080/swagger-ui/index.html#/
 ```
 
 ## How to use
+Keep in mind that you need to have a MongoDB database named "readingisgood_db" running on port 27017 (default)
+
 For testing this solution clone the repository and then, inside it run:
 
 ```bash
@@ -48,3 +50,8 @@ Now you have a .jar file ready to use, cd into the "target" folder and run:
 ```bash
 java -jar reading-is-good-0.0.1-SNAPSHOT.jar
 ```
+
+Now it is already deployed on localhost and you can start using the Postman collection that you previously imported.
+
+NOTE: I have also added a Dockerfile to containerize the solution, however due to issues related to Docker on Windows
+I have not been able to connect it to my local MongoDB.
