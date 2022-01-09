@@ -22,3 +22,10 @@ GetIr Alvaro Ferrera.postman_collection.json
 That can be directly imported into Postman as a collection and it has all the
 HTTP requests already saved, named, and it also automatically includes the bearer
 token in each request once you log in.
+
+## Swagger
+I have included Swagger in my project and it is accessible using the following URL:
+
+```sh
+http://localhost:8080/swagger-ui/index.html#/
+```
