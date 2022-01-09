@@ -29,3 +29,22 @@ I have included Swagger in my project and it is accessible using the following U
 ```sh
 http://localhost:8080/swagger-ui/index.html#/
 ```
+
+## How to use
+For testing this solution clone the repository and then, inside it run:
+
+```bash
+mvn test
+```
+
+Then run:
+
+```bash
+mvn install
+```
+
+Now you have a .jar file ready to use, cd into the "target" folder and run:
+
+```bash
+java -jar reading-is-good-0.0.1-SNAPSHOT.jar
+```
